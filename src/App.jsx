@@ -13,6 +13,7 @@ import Blog from './pages/Blog';
 import Marketplace from './pages/Marketplace';
 import UserProfile from './pages/UserProfile';
 import AdminDashboard from './pages/AdminDashboard';
+import TicketBooking from './pages/TicketBooking';
 
 function App() {
   return (
@@ -31,6 +32,7 @@ function App() {
         <Route path="/marketplace" element={<Marketplace />} />
         <Route path="/profile" element={<UserProfile />} />
         <Route path="/admin" element={<AdminDashboard />} />
+        <Route path="/book-tickets" element={<TicketBooking />} />
       </Routes>
     </div>
   );

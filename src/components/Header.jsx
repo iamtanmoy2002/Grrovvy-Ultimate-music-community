@@ -22,7 +22,9 @@ function Header() {
             <Link to="/marketplace" className="hover:border hover:border-white my-4 mx-1 py-1 px-3 rounded-lg">Marketplace</Link>
             <Link to="/blog" className="hover:border hover:border-white my-4 mx-1 py-1 px-3 rounded-lg">Blog</Link>
             <Link to="/podcasts" className="hover:border hover:border-white my-4 mx-1 py-1 px-3 rounded-lg">Podcasts</Link>
-            <Link to="/Book-tickets" className="hover:border hover:border-white my-4 mx-1 py-1 px-3 rounded-lg">Book Tickets</Link>
+            <Link to="/book-tickets" className="hover:border hover:border-white my-4 mx-1 py-1 px-3 rounded-lg">Book Tickets</Link>
+
+            
           </div>
         </div>
         <div className="hidden md:flex space-x-4">
