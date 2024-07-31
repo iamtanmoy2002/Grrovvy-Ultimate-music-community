@@ -3,11 +3,11 @@ import { RiHeartFill } from "@remixicon/react";
 
 function Footer() {
   return (
-    <footer className='bg-black p-3'>
+    <footer className='bg-black p-3 relative'>
       <h1 className='w-full border border-white mb-4'></h1>
       <div className='flex justify-between'>
-        <div className='flex gap-20'>
-          <div className='p-1 ml-16'>
+        <div className='flex gap-2'>
+          <div className='p-1'>
             <div className='text-4xl text-white mb-7'>
               <div>Company</div>
             </div>
@@ -21,7 +21,7 @@ function Footer() {
             </div>
         </div>
           <div className='p-1'>
-            <div className='text-4xl text-white mb-7 px-4'>
+            <div className='text-4xl text-white mb-7 px-2'>
               <div>Contact Us</div>
             </div>
             <div className='text-white p-2 text-lg flex gap-3'>
@@ -33,8 +33,8 @@ function Footer() {
         </div>
       
       
-      <div className='text-white p-4'>
-        <p className='mt-52'>&copy; 2024 Music Community App. All rights reserved.</p>
+      <div className='text-white p-1 absolute right-0 bottom-0'>
+        <p className=''>&copy; 2024 Music Community App. All rights reserved.</p>
       </div>
 
       </div>
