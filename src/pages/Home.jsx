@@ -14,7 +14,7 @@ function Home() {
       <main className='w-full bg-black'>
         {/* First Section */}
         <div className='relative w-full sm:h-[600px] h-[400px]'>
-          <img className='w-full h-full object-cover' src={KygoImg} alt="Kygo" />
+          <img className='w-full h-full' src={KygoImg} alt="Kygo" />
           <h1 className='absolute left-7 lg:left-14 top-1/2 sm:top-1/3 lg:text-8xl md:text-7xl sm:text-6xl text-3xl text-white font-bold'>
             Join <br />The Ultimate <br />Music Community
           </h1>
